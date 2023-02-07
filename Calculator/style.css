@@ -1,0 +1,62 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(320deg, #ae86be, #fefe92, #63c);
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    
+    
+    height: inherit;
+    justify-content: center;
+}
+.wrapper{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow:0 5px 40px rgba(35,35,35,0.1);
+    border: 1px solid black;
+    background: rgba(200,200,200,0.5);
+    flex-basis: 290px;
+    height:  350px;
+    padding: 50px 20px;
+    backdrop-filter: blur(5px);
+    
+    
+    
+}
+.screen{
+    border: 1px solid black;
+    background: rgba(57,196,10,0.1);
+    border-radius: 5px;
+    height: 40px;
+    width: 238px;
+    font-size: 40;
+    margin-bottom: 15px;
+    
+    
+}
+
+.button{
+    width: 55px;
+    height: 55px;
+    margin: 1px;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(57, 196, 10, 0.3), rgb(255,255,255,0.9));
+    border-radius: 360px;
+    font-size: 40;
+    
+}
+
+
